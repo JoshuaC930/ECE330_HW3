@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * File: Temperature Conversion, converts 
+ * By: Joshua Corrales
  */
 
 int main() {
@@ -9,13 +10,13 @@ int main() {
     printf("Enter a number in Centigrade to convert: ");
 
     //reads input from user
-    scanf("%d", &centigrade);
+    scanf("%f", &centigrade);
 
     //temperature conversion
-    fahrenheit = (centigrade * 9 / 5) + 32;
+    fahrenheit = ((centigrade * 9 / 5) + 32);
 
     //prints conversion
-    printf("%2f degrees Fahrenheit.", fahrenheit);
+    printf("%.6f degrees Test.", fahrenheit);
 
     return 0; //terminates program
 }
