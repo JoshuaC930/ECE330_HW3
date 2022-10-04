@@ -12,7 +12,10 @@ int main() {
     scanf("%d", &centigrade);
 
     //temperature conversion
-    
+    fahrenheit = (centigrade * 9 / 5) + 32;
+
+    //prints conversion
+    printf("%2f degrees Fahrenheit.", fahrenheit);
 
     return 0; //terminates program
 }
